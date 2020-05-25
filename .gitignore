@@ -1,0 +1,4 @@
+*.txt
+*.yaml
+*.csv
+.ipynb_checkpoints
