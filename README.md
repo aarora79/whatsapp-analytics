@@ -1,6 +1,6 @@
 # whatsapp-analytics
 
-Data analytics for a WhatsApp group chat history. Export a WhatsApp chat history from a group you are a member of and run exploratory data analysis on it. A preprocessor script wrangles the data to make it amenable for analytics application and creates a metadata YAML file with basic information about the group. The analytics is performed by an R Jupyter notebook. The analysis provides insights such as timeseries for message frequency, frequent senders and correlation between message sending patterns of various members.
+Data analytics for a WhatsApp group chat history. Export a WhatsApp chat history from a group you are a member of and run exploratory data analysis on it. A preprocessor script wrangles the data to make it amenable for analytics application and creates a metadata YAML file with basic information about the group. The analytics is performed by an R Jupyter notebook. The analysis provides insights such as timeseries for message frequency, frequent senders and correlation between message sending patterns of various members and also emoji analysis.
 
 ![Messages per day](/images/overall_timeseries.png) ![Messages per day per person](/images/per_person_timeseries.png)
 ![Correlation between message sending patterns](/images/per_person_correlation.png)
@@ -94,6 +94,17 @@ Refer to the Jupyter notebook for data analysis. A subset of questions that the 
 
 There are some WhatsApp datasets available online, you can find them via a Google search. I am not providing the link here due to privacy concerns. I could find [this paper](https://users.ics.aalto.fi/kiran/content/whatsapp.pdf) and [associated github](https://github.com/gvrkiran/whatsapp-public-groups) repo as well which presents results from analysing a large number of WhatsApp datasets.
 
+## Future Work
+
+1. Explore the media attachments, how many pictures/videos are shared, at what frequency, by whom?
+
+2. Which domains (youtu.be, facebook etc) are used to share media?
+
+3. Deep learning NLP tasks when sufficient data is collected. Use BERT to do cool stuff?
+
+4. More advanced statistical analysis such estimate time to next message by sender?
+
+5. Compare and contrast text content across groups.
 
 ## Ethics Note
 
