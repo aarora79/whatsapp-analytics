@@ -4,7 +4,7 @@ Data analytics for a WhatsApp group chat history. Export a WhatsApp chat history
 
 ## Exporting chat history from a WhatsApp group
 
-I did this on an Android phone but should be similar on others as well. On the top right corner press the icon for the three dots, then select more and then select export chat. This will allow you to email a text file of the chat history. Once you have the chat history file in the email, you have the raw data we need for this analysis.
+I did this on an Android phone but should be similar on others as well. Get a dump of the chat history of a WhatsApp group requires you to be a member of that group. On the top right corner press the icon for the three dots, then select more and then select export chat. This will allow you to email a text file of the chat history. Once you have the chat history file in the email, you have the raw data we need for this analysis.
 
 ## Preprocessing the raw data
 
@@ -87,5 +87,12 @@ Refer to the Jupyter notebook for data analysis. A subset of questions that the 
 
 5. Frequently occuring words.
 
+## Sample datasets
 
+There are some WhatsApp datasets available online, you can find them via a Google search. I am not providing the link here due to privacy concerns. I could find [this paper](https://users.ics.aalto.fi/kiran/content/whatsapp.pdf) and [associated github](https://github.com/gvrkiran/whatsapp-public-groups) repo as well which presents results from analysing a large number of WhatsApp datasets.
+
+
+## Ethics Note
+
+The code and analysis provided here is for academic purposes only. Please understand what you are doing before doing any of the stuff mentioned above. Use the tools mentioned above at your own risk. The author(s) of this code do not take any responsibility.
 
