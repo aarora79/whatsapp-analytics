@@ -2,6 +2,9 @@
 
 Data analytics for a WhatsApp group chat history. Export a WhatsApp chat history from a group you are a member of and run exploratory data analysis on it. A preprocessor script wrangles the data to make it amenable for analytics application and creates a metadata YAML file with basic information about the group. The analytics is performed by an R Jupyter notebook. The analysis provides insights such as timeseries for message frequency, frequent senders and correlation between message sending patterns of various members.
 
+![Messages per day](/images/overall_timeseries.png) ![Messages per day per person](/images/per_person_timeseries.png)
+![Correlation between message sending patterns](/images/per_person_correlation.png)
+
 ## Exporting chat history from a WhatsApp group
 
 I did this on an Android phone but should be similar on others as well. Get a dump of the chat history of a WhatsApp group requires you to be a member of that group. On the top right corner press the icon for the three dots, then select more and then select export chat. This will allow you to email a text file of the chat history. Once you have the chat history file in the email, you have the raw data we need for this analysis.
